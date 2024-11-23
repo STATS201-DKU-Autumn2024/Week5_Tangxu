@@ -79,8 +79,7 @@ The primary code for this analysis is contained in the Jupyter Notebook file **A
 
 - **Statistical Insights**:
   - Correlation heatmaps uncover relationships between sensor measurements and Remaining Useful Life (RUL).
-
----
+  
 
 ### Performance Metrics
 - **Model Evaluation**:
@@ -90,7 +89,6 @@ The primary code for this analysis is contained in the Jupyter Notebook file **A
 - **Comparison of Approaches**:
   - Performance comparison between single-modality and multimodal data approaches.
 
----
 
 ### Explanatory Insights
 - Insights into how operational settings and sensor readings influence RUL predictions.
