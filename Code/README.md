@@ -1,10 +1,13 @@
 # Advancing Predictive Maintenance for Vehicle Systems Using Multimodal and Real-Time Data
 
-## Project Overview
+## Overview
+The purpose of this code folder is to provide a comprehensive implementation of predictive maintenance analysis using machine learning techniques. It focuses on analyzing and modeling multimodal datasets, including the NASA Turbofan Engine Degradation Data and the MetroPT dataset. The tasks performed include:
 
-Welcome to the **Predictive Maintenance for Vehicle Systems** project! This repository contains a series of data exploration, statistical analysis, and machine learning experiments aimed at enhancing predictive maintenance models for the automotive and transportation sectors. By integrating the **MetroPT dataset** and **NASA’s Turbofan Engine Degradation Simulation Data**, this project explores how multimodal machine learning models can improve the early detection of vehicle system failures.
-
-The primary objective of this project is to analyze how multimodal data—combining metro system operational data with automotive telemetry and real-time sensor data—can improve predictive maintenance models. Using machine learning algorithms, this study investigates the potential of these models to predict system failures, improve maintenance schedules, and reduce unexpected breakdowns.
+1. **Data Preprocessing**: Loading, cleaning, normalizing, and preparing data for predictive modeling.
+2. **Exploratory Data Analysis (EDA)**: Analyzing key data trends and visualizing sensor readings, failure patterns, and operational conditions.
+3. **Machine Learning Models**: Training and evaluating models such as Random Forest and Support Vector Machine (SVM) to predict Remaining Useful Life (RUL) and component failures.
+4. **Model Interpretability**: Using SHAP analysis to understand feature importance and model decision-making.
+5. **Visualization**: Generating insightful plots to support data-driven decision-making and maintenance strategies.
 
 ## Key Components
 
