@@ -46,7 +46,7 @@ The primary code for this analysis is contained in the Jupyter Notebook file **A
 
 ### Download the Dataset
 
-1. Download the **MetroPT dataset** and **NASA Turbofan Engine Degradation Simulation Data** from Zenodo and the NASA data repository, respectively.
+1. Download the **NASA Turbofan Engine Degradation Simulation Data** from the NASA data repository, respectively.
 2. Upload the downloaded data files to your Google Colab environment for easy access.
 
 ### Running the Notebook
