@@ -11,7 +11,7 @@ The purpose of this code folder is to provide a comprehensive implementation of 
 
 ## Files Included
 
-### **[`Advancing_Predictive_Maintenance.ipynb`]**(https://colab.research.google.com/drive/1jFpqHdT2FzVdd1g5KstMsEbXj-PRv9R0)
+### [**`Advancing_Predictive_Maintenance.ipynb`**](https://colab.research.google.com/drive/1jFpqHdT2FzVdd1g5KstMsEbXj-PRv9R0)
 This Jupyter Notebook contains the complete workflow for predictive maintenance analysis and modeling. It is divided into the following key sections:
 
 1. **Data Loading and Preprocessing**:
