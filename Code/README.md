@@ -57,19 +57,22 @@ The primary code for this analysis is contained in the Jupyter Notebook file **A
 
 ## Visualization
 
-This project includes key visualizations to help interpret data trends and understand predictive maintenance patterns within the **MetroPT dataset** and **NASA Turbofan Engine Degradation Simulation Data**. Visualizations are designed to provide insights into component degradation, operational conditions, and sensor data trends, all of which contribute to predictive maintenance modeling.
+### SHAP Dependence Plot
+The SHAP Dependence Plot provides insights into the relationship between `sensor_measurement_2` and its SHAP values. The plot highlights how the feature impacts the model's predictions, with `sensor_measurement_8` being used as a color-coded interaction variable. Key observations include:
+- A strong negative correlation between `sensor_measurement_2` and its SHAP values, indicating that lower values of this feature lead to higher importance in predicting Remaining Useful Life (RUL).
+- Interaction with `sensor_measurement_8` reveals additional patterns, with higher values of `sensor_measurement_8` (red points) amplifying the effect of `sensor_measurement_2` on the model's predictions.
 
-### Example Visualization
-- **Time-Series Trends for Sample Unit in NASA Dataset**: This plot illustrates degradation trends for a sample unit over time, highlighting the relationship between operational cycles and sensor readings. Such visualizations help in identifying patterns in component wear and predicting the Remaining Useful Life (RUL) of high-stress components.
+![SHAP Dependence Plot](../path_to_your_uploaded_files/SHAP.png)
 
-![Time-Series Trends for Sample Unit in NASA Dataset](Time-Series%20Trends%20for%20Sample%20Unit%20in%20NASA%20Dataset.JPG)
+### Time-Series Trends
+The time-series visualization showcases trends in `sensor_measurement_2` and `sensor_measurement_3` for a specific unit in the NASA dataset. Key observations include:
+- Both sensor measurements exhibit increasing trends as the unit progresses through its operational cycles.
+- High variability in the sensor measurements highlights the importance of capturing these patterns for accurate predictive maintenance.
 
-### Additional Visualizations
-Other visualizations in the notebook cover:
-- **Failure Rate Over Time**: Shows how failure rates vary across different components and operational settings.
-- **Correlation Heatmaps**: Highlights relationships between various sensor readings and operational conditions, aiding in feature selection for the predictive models.
+![Time-Series Analysis](../path_to_your_uploaded_files/Time-Series Analysis.png)
 
-These visualizations enhance the interpretability of the data, allowing for a more comprehensive understanding of factors influencing predictive maintenance in vehicle systems.
+These visualizations provide actionable insights into sensor behaviors and feature importance, aiding in the development of robust predictive maintenance strategies.
+
 
 ## Dataset
 
