@@ -62,7 +62,7 @@ The SHAP Dependence Plot provides insights into the relationship between `sensor
 - A strong negative correlation between `sensor_measurement_2` and its SHAP values, indicating that lower values of this feature lead to higher importance in predicting Remaining Useful Life (RUL).
 - Interaction with `sensor_measurement_8` reveals additional patterns, with higher values of `sensor_measurement_8` (red points) amplifying the effect of `sensor_measurement_2` on the model's predictions.
 
-![SHAP Dependence Plot](../path_to_your_uploaded_files/SHAP.png)
+![SHAP Dependence Plot](https://github.com/STATS201-DKU-Autumn2024/Week5_Tangxu/blob/main/Code/SHAP.png)
 
 ### Time-Series Trends
 The time-series visualization showcases trends in `sensor_measurement_2` and `sensor_measurement_3` for a specific unit in the NASA dataset. Key observations include:
