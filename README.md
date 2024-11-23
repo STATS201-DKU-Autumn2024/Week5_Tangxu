@@ -1,5 +1,3 @@
-# Week5_Tangxu
-
 # System Configuration Report
 
 ### CPU Information:
