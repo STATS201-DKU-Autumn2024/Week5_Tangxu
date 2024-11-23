@@ -44,44 +44,9 @@ The environment requirements for running this project can be accessed from the m
 
 Ensure all dependencies listed in the repository are installed before running the notebook.
 
-
-## Key Components
-
-### 1. Data Exploration
-- **Objective**: Conduct an initial exploration of the MetroPT dataset and NASA Turbofan Engine Degradation Data.
-- **Methods**:
-  - Descriptive statistics to summarize the datasets.
-  - Visualizations of key variables such as:
-    - Failure rates
-    - Degradation patterns
-    - Operational conditions
-  - Identification of missing data using visualization tools (e.g., `missingno`).
-
-### 2. Statistical Analysis
-- **Objective**: Identify recurring maintenance patterns and degradation trends.
-- **Methods**:
-  - Perform correlation analysis to uncover relationships between:
-    - Operational settings
-    - Sensor measurements
-    - Component wear and failure.
-  - Use visual tools like heatmaps to highlight significant trends across different transportation modes.
-
-### 3. Machine Learning
-- **Objective**: Predict maintenance needs using machine learning.
-- **Methods**:
-  - Implement models such as:
-    - **Random Forest**: Evaluate feature importance and predict failure risks.
-    - **Support Vector Machine (SVM)**: Classify and predict operational conditions associated with failures.
-  - Test predictive performance for:
-    - **Single-modality approaches**: Use only sensor data or operational data.
-    - **Multimodal approaches**: Combine sensor and operational data to assess improvements in predictive accuracy and system reliability.
-
-
-## Colab Notebook
+## Usage Instructions
 
 The primary code for this analysis is contained in the Jupyter Notebook file **Advancing_Predictive_Maintenance.ipynb**. This notebook can be executed in Google Colab, providing an interactive environment where students and researchers can modify parameters and observe real-time results of the predictive maintenance models.
-
-[**Open in Colab**](https://colab.research.google.com/drive/1jFpqHdT2FzVdd1g5KstMsEbXj-PRv9R0)
 
 ### Download the Dataset
 
