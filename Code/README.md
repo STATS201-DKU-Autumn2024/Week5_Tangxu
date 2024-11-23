@@ -107,3 +107,7 @@ This project utilizes two primary datasets to explore and model predictive maint
 
 ### Data Dictionary
 A comprehensive data dictionary describing all relevant variables in each dataset can be found in the [Data](https://github.com/STATS201-DKU-Autumn2024/Week5_Tangxu/tree/main/Data) section of this repository. The data dictionary includes detailed descriptions, data types, and units for each variable, facilitating better understanding and usage of the datasets within the predictive maintenance context.
+
+## Contributors
+
+- **Tangxu Ji**: Lead developer responsible for the implementation of machine learning models, SHAP analysis, and data visualization.
