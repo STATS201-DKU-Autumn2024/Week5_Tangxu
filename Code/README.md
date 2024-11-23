@@ -69,7 +69,7 @@ The time-series visualization showcases trends in `sensor_measurement_2` and `se
 - Both sensor measurements exhibit increasing trends as the unit progresses through its operational cycles.
 - High variability in the sensor measurements highlights the importance of capturing these patterns for accurate predictive maintenance.
 
-![Time-Series Analysis](../path_to_your_uploaded_files/Time-Series Analysis.png)
+![Time-Series Analysis](https://github.com/STATS201-DKU-Autumn2024/Week5_Tangxu/blob/main/Code/Time-Series%20Analysis.png)
 
 These visualizations provide actionable insights into sensor behaviors and feature importance, aiding in the development of robust predictive maintenance strategies.
 
