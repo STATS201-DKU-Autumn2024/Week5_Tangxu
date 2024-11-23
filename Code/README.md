@@ -38,6 +38,12 @@ This Jupyter Notebook contains the complete workflow for predictive maintenance 
 
 This notebook serves as a complete implementation of the predictive maintenance project, from data exploration to advanced modeling and explainability.
 
+## Prerequisites
+
+The environment requirements for running this project can be accessed from the main page: [Environment Requirements](https://github.com/STATS201-DKU-Autumn2024/Week5_Tangxu/tree/main).
+
+Ensure all dependencies listed in the repository are installed before running the notebook.
+
 
 ## Key Components
 
