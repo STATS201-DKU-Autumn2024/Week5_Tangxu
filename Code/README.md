@@ -18,8 +18,6 @@ The primary objective of this project is to analyze how multimodal data—combin
     - Operational conditions
   - Identification of missing data using visualization tools (e.g., `missingno`).
 
----
-
 ### 2. Statistical Analysis
 - **Objective**: Identify recurring maintenance patterns and degradation trends.
 - **Methods**:
@@ -28,8 +26,6 @@ The primary objective of this project is to analyze how multimodal data—combin
     - Sensor measurements
     - Component wear and failure.
   - Use visual tools like heatmaps to highlight significant trends across different transportation modes.
-
----
 
 ### 3. Machine Learning
 - **Objective**: Predict maintenance needs using machine learning.
