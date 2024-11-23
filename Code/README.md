@@ -59,23 +59,44 @@ The primary code for this analysis is contained in the Jupyter Notebook file **A
 2. Ensure that all required libraries (e.g., `pandas`, `numpy`, `matplotlib`, `scikit-learn`) are installed within the Colab environment.
 3. Execute each cell in the notebook to perform data analysis, visualization, and model training for predictive maintenance.
 
-## Visualization
+## Expected Outputs
 
-### SHAP Dependence Plot
-The SHAP Dependence Plot provides insights into the relationship between `sensor_measurement_2` and its SHAP values. The plot highlights how the feature impacts the model's predictions, with `sensor_measurement_8` being used as a color-coded interaction variable. Key observations include:
-- A strong negative correlation between `sensor_measurement_2` and its SHAP values, indicating that lower values of this feature lead to higher importance in predicting Remaining Useful Life (RUL).
-- Interaction with `sensor_measurement_8` reveals additional patterns, with higher values of `sensor_measurement_8` (red points) amplifying the effect of `sensor_measurement_2` on the model's predictions.
+### Visualizations
+- **SHAP Analysis**:
+  - **SHAP Dependence Plot**: Provides insights into the relationship between `sensor_measurement_2` and its SHAP values. The plot highlights how the feature impacts the model's predictions, with `sensor_measurement_8` used as a color-coded interaction variable.
+    - Observations:
+      - A strong negative correlation between `sensor_measurement_2` and its SHAP values indicates that lower values of this feature lead to higher importance in predicting Remaining Useful Life (RUL).
+      - Interaction with `sensor_measurement_8` reveals additional patterns, with higher values amplifying the effect of `sensor_measurement_2`.
+    - ![SHAP Dependence Plot](https://github.com/STATS201-DKU-Autumn2024/Week5_Tangxu/blob/main/Code/SHAP.png)
+  - **SHAP Summary Plot**: Highlights the overall feature importance across all features in the model.
 
-![SHAP Dependence Plot](https://github.com/STATS201-DKU-Autumn2024/Week5_Tangxu/blob/main/Code/SHAP.png)
+- **Time-Series Trends**:
+  - Visualizes trends in `sensor_measurement_2` and `sensor_measurement_3` for specific units in the NASA dataset.
+    - Observations:
+      - Both sensor measurements exhibit increasing trends as the unit progresses through operational cycles.
+      - High variability in the sensor measurements emphasizes the importance of capturing these patterns for accurate predictive maintenance.
+    - ![Time-Series Analysis](https://github.com/STATS201-DKU-Autumn2024/Week5_Tangxu/blob/main/Code/Time-Series%20Analysis.png)
 
-### Time-Series Trends
-The time-series visualization showcases trends in `sensor_measurement_2` and `sensor_measurement_3` for a specific unit in the NASA dataset. Key observations include:
-- Both sensor measurements exhibit increasing trends as the unit progresses through its operational cycles.
-- High variability in the sensor measurements highlights the importance of capturing these patterns for accurate predictive maintenance.
+- **Statistical Insights**:
+  - Correlation heatmaps uncover relationships between sensor measurements and Remaining Useful Life (RUL).
 
-![Time-Series Analysis](https://github.com/STATS201-DKU-Autumn2024/Week5_Tangxu/blob/main/Code/Time-Series%20Analysis.png)
+---
 
-These visualizations provide actionable insights into sensor behaviors and feature importance, aiding in the development of robust predictive maintenance strategies.
+### Performance Metrics
+- **Model Evaluation**:
+  - Root Mean Squared Error (RMSE)
+  - Mean Absolute Error (MAE)
+  - Precision and Recall for model predictions
+- **Comparison of Approaches**:
+  - Performance comparison between single-modality and multimodal data approaches.
+
+---
+
+### Explanatory Insights
+- Insights into how operational settings and sensor readings influence RUL predictions.
+- Feature importance rankings derived from SHAP analysis to identify critical factors for maintenance strategies.
+
+These outputs collectively enable data-driven predictive maintenance decisions and provide actionable insights for real-world applications.
 
 
 ## Dataset
