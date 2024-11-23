@@ -9,6 +9,36 @@ The purpose of this code folder is to provide a comprehensive implementation of 
 4. **Model Interpretability**: Using SHAP analysis to understand feature importance and model decision-making.
 5. **Visualization**: Generating insightful plots to support data-driven decision-making and maintenance strategies.
 
+## Files Included
+
+### `Advancing_Predictive_Maintenance.ipynb`
+This Jupyter Notebook contains the complete workflow for predictive maintenance analysis and modeling. It is divided into the following key sections:
+
+1. **Data Loading and Preprocessing**:
+   - Loads the MetroPT and NASA Turbofan Engine Degradation datasets.
+   - Performs data cleaning, normalization, and feature extraction for machine learning models.
+
+2. **Exploratory Data Analysis (EDA)**:
+   - Summarizes the datasets with descriptive statistics.
+   - Visualizes key trends, such as sensor measurements, time-series patterns, and failure rates.
+
+3. **Predictive Modeling**:
+   - Implements machine learning models, including:
+     - Random Forest
+     - Temporal Convolutional Networks (TCNs)
+   - Evaluates models on Remaining Useful Life (RUL) predictions using performance metrics such as RMSE and MAE.
+
+4. **Model Explainability**:
+   - Uses SHAP (SHapley Additive exPlanations) to interpret model predictions.
+   - Generates SHAP summary plots and dependence plots to analyze feature importance and interactions.
+
+5. **Visualization**:
+   - Includes visualizations for both time-series data trends and SHAP analysis.
+   - Provides insights into how sensor data and operational settings impact maintenance predictions.
+
+This notebook serves as a complete implementation of the predictive maintenance project, from data exploration to advanced modeling and explainability.
+
+
 ## Key Components
 
 ### 1. Data Exploration
